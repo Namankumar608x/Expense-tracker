@@ -139,7 +139,7 @@ const ExpenseForm = () => {
               </label>
               <div className="input-group input-group-lg">
                 <span className={`input-group-text amount-prefix ${errors.amount ? 'border-danger' : ''}`}>
-                  $
+                  ₹
                 </span>
                 <input
                   type="number"

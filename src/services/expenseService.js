@@ -10,7 +10,7 @@ import { collection,
   
 } from 'firebase/firestore';
 import {db} from '../firebase.js'
-
+import { doc } from 'firebase/firestore';
 
 
 const addExpense=async (expenseData)=>{
